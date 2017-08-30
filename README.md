@@ -1,0 +1,1 @@
+Spotsky is a web application created with React.js. The purpose of the app is for groups of friends that skateboard together, to share new spots they find with their friends. Users can add new spots with an image, name, location and description.
