@@ -1,0 +1,90 @@
+.form-container {
+	// width: 100%;
+	// height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 900;
+}
+
+
+form {
+	align-items: center;
+	width: 60%;
+	// position: relative;
+	// left: calc(50% - 30%);
+	// top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: black;
+	height: 90vh;
+	border: 2px solid white;
+	position: absolute;
+	top: 5%;
+	.fa {
+		color: white;
+		font-size: 38px;
+		margin-left: 92%;
+		// float: right;
+		position: absolute;
+		right: 2%;
+		top: 1%;
+		margin: 5px 1% 0 90%;
+		&:hover, &:focus {
+			cursor: crosshair;
+		}
+	}
+	.nameInput, .locationInput {
+		width: 80%;
+		margin: 5% 0;
+		background: black;
+		color: white;
+		border: none;
+		border-bottom: 2px solid white;
+	}
+	.nameInput {
+		margin-top: 10%;
+	}
+	input:focus {
+		outline: none;
+	}
+	textarea {
+		margin: 2% 0;
+		width: 80%;
+		height: 100px;
+		background: black;
+		color: white;
+		border: none;
+		border-bottom: 2px solid white;
+	}
+	textarea:focus {
+		outline: none;
+	}
+	.imageUpload {
+		width: 35%;
+		margin: 5% auto 2% auto;
+	}
+	.imageUpload:hover {
+		cursor: crosshair;
+	}
+	button {
+		width: 180px;
+		height: 50px;
+		color: white;
+		background: black;
+		border: 2px solid white;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		line-height: 20px;
+		font-style: italic;
+		transition: all 0.5s;
+		margin: 5% 0 7% 0;
+		padding: 14px 1%;
+		&:hover, &:focus {
+			color: black;
+			background: white;
+			cursor: crosshair;
+		}
+	}
+}

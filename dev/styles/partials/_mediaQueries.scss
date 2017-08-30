@@ -1,0 +1,122 @@
+@media (max-width: 1000px) {
+	header {
+		display: flex;
+		flex-direction: column;
+		h1 {
+			margin: 3% auto;
+		}
+		div {
+			display: flex;
+			margin: 0 auto 1% auto;
+			width: 58%;
+			justify-content: space-between;
+		}
+	}
+	li {
+		width: 31%;
+		margin: 2% auto;
+		&:hover, &:focus {
+			// width: 37%;
+		}
+	}
+	form {
+		width: 80%;
+		// left: 10%;
+	}
+}
+
+
+@media (max-width: 760px) {
+	header {
+		div {
+			justify-content: space-between;
+			width: 80%;
+			margin-top: 2%;
+		}
+		h1 {
+			margin: auto;
+			text-align: center;
+			font-size: 36px;
+		}
+	}
+	.displaySpots ul li {
+		margin: 3% auto;
+		width: 95%;
+		&:hover, &:focus {
+			// width: 95%;
+			div {
+				// height: 320px;
+			}
+		}
+	}
+	form {
+		width: 90%;
+		// left: 5%
+	}
+}
+
+@media (max-width: 480px) {
+	.loginPage .title{
+			.logIn {
+				width: 120px;
+				height: 40px;
+				font-size: 16px;
+				padding: 1% 0;
+				margin-top: 4%;
+			}
+			.logInTitle {
+				font-size: 36px;
+				letter-spacing: 18px;
+				margin-bottom: 4%;
+			}
+	}
+	header {
+		div {
+			justify-content: space-around;
+			width: 95%;
+			button {
+				width: 120px;
+				height: 40px;
+				font-size: 10px;
+				padding: 2%;
+			}
+		}
+		h1 {
+			font-size: 36px;
+			// margin: 0;
+			padding-left: 2px;
+			text-align: center;
+			letter-spacing: 18px;
+		}
+	}
+	ul li h2 {
+		font-size: 20px;
+	}
+	form {
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		margin: 0;
+
+		.nameInput {
+			// margin: 5% auto 10% auto;
+		}
+
+		.locationInput {
+			// margin: 5% auto;
+		}
+		.descriptionInput {
+			// margin: 10% auto 15% auto;
+			height: 20%;
+		}
+		.imageUpload {
+			// margin: 5% auto;
+			width: 80%;
+			height: 25px;
+		}
+		button {
+			// margin-top: 10%;
+		}
+	}
+}

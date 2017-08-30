@@ -1,0 +1,44 @@
+.loginPage {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	.title {
+		display: flex;
+		flex-direction: column;
+		.logInTitle {
+			display: flex;
+			text-transform: uppercase;
+			font-size: 72px;
+			letter-spacing: 22px;
+			margin: 0 auto 3% auto;
+			padding-left: 8px;
+			font-style: italic;
+			width: auto;
+			color: black;
+			background: white;
+			}
+		.logIn {
+			width: 120px;
+			height: 50px;
+			color: white;
+			background: black;
+			border: 2px solid white;
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			line-height: 20px;
+			font-style: italic;
+			transition: all 0.5s;
+			margin: 3% auto 0 auto;
+			padding: 14px 0;
+		}
+		.logIn:hover, .logIn:focus, .logIn:active {
+			cursor: crosshair;
+			color: black;
+			background: white;
+		}
+	}
+}
